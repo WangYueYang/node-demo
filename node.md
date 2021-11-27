@@ -22,3 +22,6 @@ npm install -g npm-check-updates    ncu -u    若要将所有软件包更新到�
 
 ### 卸载npm包
 npm install <package-name> -S || --save || -D || -save-dev || -g || --global 删除package.json中的引用或者是全局的包
+
+### Node.js 开发环境与生产环境的区别
+Node.js 假定其始终运行在开发环境中。 可以通过设置 NODE_ENV=production 环境变量来向 Node.js 发出正在生产环境中运行的信号。
